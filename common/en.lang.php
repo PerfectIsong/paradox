@@ -1,0 +1,160 @@
+<?php
+
+if (!defined('OK_LOADME')) {
+    die('o o p s !');
+}
+
+$LANG = array();
+
+// Translation Details
+$translation_str = 'English';
+$translation_author = 'AmazeGo';
+$translation_version = '1.9.0';
+$translation_update = '5';
+$translation_stamp = '2021-05-28 22:02';
+
+// Character encoding, example: utf-8, iso-8859-1
+$LANG['lang_iso'] = "en";
+$LANG['lang_charset'] = "utf-8";
+
+// ----------------
+// Array of Language
+// ----------------
+$LANG['g_pagenotfound'] = "Page not found!";
+$LANG['g_continue'] = "Continue";
+$LANG['g_registration'] = "Registration";
+$LANG['g_register'] = "Register";
+$LANG['g_agreeterms'] = "I agree with the site terms";
+$LANG['g_termscon'] = "Terms and Conditions";
+$LANG['g_haveacc'] = "Have an account?";
+$LANG['g_donothaveacc'] = "Do not have an account?";
+$LANG['g_createacc'] = "Create One";
+$LANG['g_forgotpass'] = "Forgot Password";
+$LANG['g_forgotpassresetlink'] = "We will send a link to reset your password";
+$LANG['g_resetpass'] = "Reset Password";
+$LANG['g_passmeter'] = "Password should include at least one upper and lower case letters, one number, one special character, and should be at least 8 characters in length.";
+$LANG['g_noregister'] = "Due to the system maintenance, currently we do not accept new registration!";
+$LANG['g_noreferrer'] = "You are not allowed to register without a valid referrer!";
+$LANG['g_name'] = "Name";
+$LANG['g_firstname'] = "First Name";
+$LANG['g_lastname'] = "Last Name";
+$LANG['g_email'] = "Email";
+$LANG['g_username'] = "Username";
+$LANG['g_dashboard'] = "Dashboard";
+$LANG['g_admincp'] = "Admin CP";
+$LANG['g_admincpinit'] = "ACP";
+$LANG['g_membercp'] = "Member CP";
+$LANG['g_membercpinit'] = "MCP";
+$LANG['g_rememberme'] = "Remember Me";
+$LANG['g_successlogout'] = "You have been successfully logged out.";
+$LANG['g_invalidtoken'] = "Invalid token, please try it again!";
+$LANG['g_invalidinput'] = "Invalid input format, please try it again!";
+$LANG['g_toastsuccess'] = "Success";
+$LANG['g_toastsuccessinfo'] = "Registration processed successfully!";
+$LANG['g_toastfail'] = "Warning";
+$LANG['g_toastfailinfo'] = "Registration failed. <strong>Please try again!</strong>";
+$LANG['g_dashboardtitle'] = "Dashboard";
+$LANG['g_accoverview'] = "Account Overview";
+$LANG['g_referrallist'] = "Referral List";
+$LANG['g_referrals'] = "Referrals";
+$LANG['g_historylist'] = "Transaction History";
+$LANG['g_withdrawreq'] = "Withdrawal Request";
+$LANG['g_withdrawstr'] = "Withdrawal Request";
+$LANG['g_withdrawfee'] = "Withdrawal Fee";
+$LANG['g_findreferral'] = "Find Referral";
+$LANG['g_addreferral'] = "Add Referral";
+$LANG['g_memberprofile'] = "Member Profile";
+$LANG['g_findhistory'] = "Find History";
+$LANG['g_point'] = "Point";
+$LANG['g_hits'] = "Hits";
+$LANG['g_earning'] = "Earning";
+$LANG['g_registered'] = "Registered";
+$LANG['g_active'] = "Active";
+$LANG['g_expire'] = "Expire";
+$LANG['g_pending'] = "Pending";
+$LANG['g_inactive'] = "Inactive";
+$LANG['g_limited'] = "Limited";
+$LANG['g_blocked'] = "Blocked";
+$LANG['g_refurl'] = "Referral URL";
+$LANG['g_mysponsor'] = "My Sponsor";
+$LANG['g_recentref'] = "Recent Referrals";
+$LANG['g_performance'] = "Performance";
+$LANG['g_membership'] = "Membership";
+$LANG['g_transactionid'] = "Transaction ID";
+$LANG['g_description'] = "Description";
+$LANG['g_keyword'] = "Keyword";
+$LANG['g_balance'] = "Balance";
+$LANG['g_account'] = "Account";
+$LANG['g_content'] = "Content";
+$LANG['g_all'] = "All";
+$LANG['g_activeonly'] = "Active Only";
+$LANG['g_editpayplaninfo'] = "These options will change the values as is, as respective functions, and will not affect any process that associate with commissions, transaction history, nor other members.";
+$LANG['g_withdrawstatusinfo'] = "<blockquote><p><strong>%s</strong>: The request has been sent but is not yet processed. <strong>%s</strong>: The request has passed verification. <strong>%s</strong>: The request is being processed. Once processed, the funds will be sent to your account.</p></blockquote>";
+$LANG['g_cookieconsent'] = "This website only uses cookies that are necessary to provide the best experience.";
+$LANG['g_norecordinfo'] = "No Record Found";
+$LANG['g_norecordgen'] = "Sorry, we can not find any data";
+$LANG['g_norecordgeninfo'] = "To get rid of this message, register a new member and select it from the above dropdown list.";
+$LANG['g_nocontent'] = "We could not find any page";
+$LANG['g_nocontentinfo'] = "Sorry, we can't find any content for you :(";
+$LANG['g_withdrawispaid'] = "Processing";
+$LANG['g_withdrawislook'] = "Verified";
+$LANG['g_withdrawiswait'] = "Pending";
+
+$LANG['a_managemember'] = "Manage Member";
+$LANG['a_findmember'] = "Find Member";
+$LANG['a_historylist'] = "Transaction History";
+$LANG['a_withdrawlist'] = "Withdraw Request";
+$LANG['a_genealogylist'] = "Member Genealogy";
+$LANG['a_genealogynote'] = "Due to the browser HTML parse limitation, enable the Member Genealogy when the Matrix plan is used and disable it when the system using the Unilevel plan.";
+$LANG['a_getstart'] = "Getting Started";
+$LANG['a_digifile'] = "Digital Product";
+$LANG['a_digicontent'] = "Digital Content";
+$LANG['a_termscon'] = "Terms Conditions";
+$LANG['a_notifylist'] = "Notification List";
+$LANG['a_settings'] = "General Settings";
+$LANG['a_payplan'] = "Payplan Settings";
+$LANG['a_payment'] = "Payment Options";
+$LANG['a_languagelist'] = "Manage Language";
+$LANG['a_isdeflang'] = "Set as Default Language";
+$LANG['a_updates'] = "Maintenance";
+$LANG['a_outplanmark'] = "Member payplan is not the same as the system payplan. Its could be happen when payplan settings had be changed after this member registered.";
+$LANG['a_outplanreg'] = "Member registered fee is not the same as the system payplan. Its could be happen when registration fee in the payplan settings had be changed after this member registered.";
+
+$LANG['m_getstarted'] = "Getting Started";
+$LANG['m_genealogyview'] = "Genealogy View";
+$LANG['m_digiload'] = "Download";
+$LANG['m_digiview'] = "Page Content";
+$LANG['m_planpay'] = "Payment";
+$LANG['m_planreg'] = "Upgrade";
+$LANG['m_profilecfg'] = "Profile";
+$LANG['m_feedback'] = "Feedback";
+$LANG['m_userlist'] = "Referral";
+$LANG['m_historylist'] = "Transaction";
+$LANG['m_withdrawreq'] = "Withdraw";
+$LANG['m_withdrawamount'] = "Amount to withdraw";
+$LANG['m_genealogyview'] = "Genealogy";
+$LANG['m_membergenealogy'] = "Member Genealogy";
+$LANG['m_nofile'] = "We couldn't find any file";
+$LANG['m_nofilenote'] = "Sorry, we can't find any downloadable file for you :(";
+$LANG['m_withdrawreqnote'] = "You are allowed to submit a withdrawal request once a time! The system will simply ignore the request if it is do not meets the requirements.";
+$LANG['m_clicklefttocnt'] = "Please click the page menu on the left to display the content!";
+$LANG['m_profileaccnote'] = "Please complete the forms below, make sure the value you entered is valid.";
+$LANG['m_profilepaynote'] = "Member account settings.";
+$LANG['m_profilewebnote'] = "Please enter your website details below (optional).";
+$LANG['m_profilepassnote'] = "Update your password using forms below. Leave empty to keep the current password.";
+$LANG['m_confirmpass'] = "Confirm Password Change";
+$LANG['m_feedbacknote'] = "Use the following form for any questions, support request, or feature suggestion.";
+$LANG['m_payoption'] = "Payment Option";
+$LANG['m_payinfo'] = "Please complete your payment by clicking the Make Payment button from the available payment option below.";
+$LANG['m_testpayinfo'] = "Click the button below to simulate the payment process!";
+$LANG['m_notice'] = "Notice!";
+$LANG['m_noticereg'] = "You are not registered to";
+$LANG['m_noticepay'] = "Your account is not active, please contact us for more details.";
+$LANG['m_noticerepay'] = "You have an outstanding payment, please complete the payment.";
+$LANG['m_ipnthanks'] = "Thank You";
+$LANG['m_ipnthanksverify'] = "Please wait a few moments to verify your payment.";
+$LANG['m_ipnnextbtn'] = "Continue";
+$LANG['m_ibconversion'] = "Conversion";
+$LANG['m_ibpersonal'] = "Personal";
+$LANG['m_ibwallet'] = "Wallet";
+$LANG['m_registeredsince'] = "Registered Since";
